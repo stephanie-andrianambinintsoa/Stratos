@@ -1,5 +1,5 @@
 provider "google" {
-  project = ""
+  project = "playpen-a2f9f3"
 }
 
 resource "google_bigquery_table" "products" {
