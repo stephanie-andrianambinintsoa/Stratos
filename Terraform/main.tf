@@ -10,7 +10,7 @@ resource "google_bigquery_table" "products" {
 [
   {
     "name": "ProductKey",
-    "type": "STRING",
+    "type": "INTEGER",
     "mode": "REQUIRED",
     "description": "The Product ID"
   },
